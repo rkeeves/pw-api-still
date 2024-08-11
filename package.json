@@ -1,0 +1,30 @@
+{
+  "name": "pw-api-still",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npx json-server --port=3000 --host='0.0.0.0' ./server/data.json",
+    "test": "npx playwright test",
+    "show": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "@types/node": "^22.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "json-server": "^0.17.4",
+    "prettier": "^3.2.5",
+    "prettier-eslint": "^16.3.0",
+    "typescript": "^5.3.3",
+    "zod": "^3.23.8",
+    "zod-fixture": "^2.5.2",
+    "zod-validation-error": "^3.3.0"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "todos": [
+    {
+      "id": 0,
+      "name": "base"
+    }
+  ],
+  "users": [
+    {
+      "id": 0,
+      "uname": "Mary Jane",
+      "email": {
+        "primary": "mary.jane@gmail.com"
+      }
+    },
+    {
+      "id": 1,
+      "uname": "John Doe",
+      "email": {
+        "primary": "john.doe@gmail.com",
+        "secondary": "john.doe@yahoo.com"
+      }
+    },
+    {
+      "id": 2,
+      "uname": "Philipp Lancaster",
+      "email": {
+        "primary": "philipp.lancaster@yahoo.com"
+      }
+    },
+    {
+      "id": 3,
+      "uname": "Software Development",
+      "email": {
+        "primary": "https://youtu.be/1OLSE6tX71Y?t=88",
+        "secondary": "https://youtu.be/yU2Go4CuB90?t=136"
+      }
+    },
+    {
+      "id": 4,
+      "uname": "Eugene Moskovich",
+      "email": {
+        "primary": "eugene.moskovich@gmail.com"
+      }
+    }
+  ]
+}
